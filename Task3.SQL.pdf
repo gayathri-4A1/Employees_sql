@@ -1,0 +1,10 @@
+ SELECT * FROM employees;
+ SELECT name , id FROM employees;
+ SELECT * FROM employees WHERE salary >35000;
+ SELECT * FROM employees WHERE salary>40000 AND id=4;
+ SELECT * FROM employees WHERE name LIKE '%y%';
+ SELECT * FROM employees ORDER BY salary DESC;
+ SELECT * FROM employees LIMIT 5;
+
+
+ 
